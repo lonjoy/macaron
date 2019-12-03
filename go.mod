@@ -11,3 +11,6 @@ require (
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 	gopkg.in/ini.v1 v1.46.0
 )
+replace (
+	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20190701094942-4def268fd1a4
+)
